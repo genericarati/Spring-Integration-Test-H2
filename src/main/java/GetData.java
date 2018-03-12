@@ -7,7 +7,7 @@ import java.sql.*;
 @Service
 public class GetData {
 
-    public String getTableContent() throws Exception {
+    private String getTableContent() throws Exception {
         String resultValue=null;
 
         Connection conn = DriverManager.getConnection( "jdbc:h2:file:./test","sa", "");
@@ -27,7 +27,7 @@ public class GetData {
         st.execute("CREATE ALIAS getTableContent FOR \"hello.GetData.getTableContent\"");
         ResultSet resultSet = st.executeQuery("CALL getTableContent()");
         while(resultSet.next()) {
-            System.out.println("Version: " + resultSet.getString(1));
+            System.out.println("Update Date: " + resultSet.getString(1));
         }
     }
 
