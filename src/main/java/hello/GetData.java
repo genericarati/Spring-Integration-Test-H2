@@ -12,7 +12,7 @@ public class GetData {
 
         Connection conn = DriverManager.getConnection( "jdbc:h2:file:./test","sa", "");
         java.sql.ResultSet rs = conn.createStatement().executeQuery(
-                " SELECT * FROM TEST");
+                " SELECT * FROM TEST where UPDATE_DATE < '2018-03-10 17:15:20.178'");
         while(rs.next())
         {
             resultValue=rs.getString(3);

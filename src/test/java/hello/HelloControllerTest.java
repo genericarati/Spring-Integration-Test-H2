@@ -30,6 +30,8 @@ public class HelloControllerTest extends TestCase {
 
     System.out.println(mvcResult.getResponse());
 
+
+
   }
 
 }
