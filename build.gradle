@@ -8,13 +8,12 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootJar {
-    baseName = 'gs-spring-boot'
+    baseName = 'demo_h2'
     version =  '0.1.0'
 }
 
@@ -27,8 +26,7 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.springframework.boot:spring-boot-starter-test")
-
     compile("com.h2database:h2:1.4.196")
+
     testCompile("junit:junit")
 }

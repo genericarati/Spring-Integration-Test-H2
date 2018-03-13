@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_main.iml" group="demo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_test.iml" group="demo" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Integration-Test-H2.iml" filepath="$PROJECT_DIR$/Spring-Integration-Test-H2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Integration-Test-H2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Integration-Test-H2_main.iml" group="Spring-Integration-Test-H2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Integration-Test-H2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Integration-Test-H2_test.iml" group="Spring-Integration-Test-H2" />
     </modules>
   </component>
 </project>

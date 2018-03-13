@@ -7,7 +7,7 @@ import java.sql.*;
 @Service
 public class GetData {
 
-    private String getTableContent() throws Exception {
+    public static  String getTableContent() throws Exception {
         String resultValue=null;
 
         Connection conn = DriverManager.getConnection( "jdbc:h2:file:./test","sa", "");
